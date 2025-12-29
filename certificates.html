@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Certificates | Rohith</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+<link rel="icon" href="images/date.webp">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="certificates-page">
+
+<div id="page-transition"></div>
+
+<!-- Navbar -->
+<nav>
+    <h2 class="logo">Rohith</h2>
+  
+
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="education.html">Education</a></li>
+    <li><a href="certificates.html">Certificates</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Certificates Section -->
+<section class="certificates-container reveal">
+  <h1>Certificates</h1>
+
+  <div class="certificates-grid">
+<div class="certificate-card" onclick="openCert('images/Foundation.jpg')">
+  <h3>Foundation of cloud IoT Edge ML</h3>
+  <p>Issued by NPTEL</p>
+</div>
+
+<div class="certificate-card" onclick="openCert('images/python certificate.jpg')">
+  <h3>Python Programming: From Basics to Real world Projects</h3>
+  <p>Issued by Lets Upgrade</p>
+</div>
+
+<div class="certificate-card" onclick="openCert('images/simplilearn.jpg')">
+  <h3>Introduction to Cyber Security</h3>
+  <p>Issued by Simplilearn</p>
+</div>
+
+
+
+    
+  </div>
+</section>
+
+<script src="script.js"></script>
+<!-- Certificate Modal -->
+<div id="cert-modal" class="cert-modal">
+  <span class="close-btn" onclick="closeCert()">×</span>
+  <img id="cert-img">
+</div>
+
+</body>
+</html>
