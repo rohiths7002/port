@@ -499,13 +499,13 @@ color: white;
   margin-bottom: 15px;
 }
 
-.socials a {
-  display: inline-block;
-  margin-right: 15px;
-  margin-top: 15px;
-  color: #0284c7;
-  text-decoration: none;
-  font-weight: bold;
+.tech-paragraph {
+  font-size: 18px;
+  line-height: 1.8;
+  background: rgba(255,255,255,0.05);
+  padding: 30px;
+  border-left: 4px solid #38bdf8;
+  border-radius: 10px;
 }
 @media (max-width: 768px) {
   .contact-box {
